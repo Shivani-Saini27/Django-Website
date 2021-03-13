@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block head %} 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Todo List </title>
+  <link rel="stylesheet" type="text/css" href="todo.css">
+  <link rel="icon" type="icon" href="Checklist-Transparent.png" >
+{% endblock head %} 
+
+{% block body %}
+  <div class="intro">
+		<h2 align="center"> <u>Task Sheet</u> </h2>
+		<p class= "para">
+			So, people often ask why do we use to do list? <br> so here are the reason...... <br>
+
+			<ul class= "tL">
+				<li>Manage your work by updating the task sheet. </li>
+				<li> For prioritizing their task.</li>
+				<li> by Priotizing the tasks, you plan the order in which you'll do them, so that you can tell what need your immediate attention. </li>
+
+			</ul>
+        </p>
+        <p class="para">
+		    So I would suggest to all, to use todolist to priorise your work. 
+
+		    happy learning and coding :)
+		</p>
+	</div>
+	<div class="main" ng-app="myList" ng-controller="myListController">
+		<h1> Task Sheet </h1>
+		<div class="addItem">
+			<input ng-model="newItem" placeholder="Add Item" class="addText">
+			<button ng-click="pushItem()"> Add </button>
+		</div>
+		<ul class="item">
+			<li ng-repeat="i in items">
+				{{i}}
+				<span ng-click="deleteItem($index)"> x </span>
+			</li>
+		</ul> 
+	</div>
+{% endblock body %}

@@ -1,0 +1,18 @@
+footer {
+	text-align: center;
+	padding: 3px;
+	background-color: DarkSalmon;
+	color: white;
+}
+table{
+	border: 5px solid black;
+
+}
+.main{
+	margin: 20px 30px;
+	width: 960px;
+
+}
+.statement{
+	color: red;
+}

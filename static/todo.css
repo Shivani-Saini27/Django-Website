@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+
+.main{
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid #0000PP;
+	margin-top: 20px;
+	font-family: sans-serif;
+}
+
+body{
+	border-style: ridge;
+	margin: 40px;
+
+}
+
+h1{
+	text-align: center;
+	font-family: "Tangerine", serif;
+	background-color: #FFC0CB;
+	font-size: 60px;
+	padding: 30px 0px;
+	margin-top: 0px;
+}
+
+.item{
+	list-style: none;
+	font-size: 20px;
+	color: #cd5c5c;
+	margin-left: -40px;
+	margin-bottom: 0px;
+    
+}
+
+li{
+	border-bottom: 1px solid #ededed;
+	background-color: #ffe4c4;*/
+	padding: 10px 0px;
+	margin-bottom: 5px;
+}
+
+li span{
+	cursor:pointer;
+	background-color: #000000;
+	position: relative; 
+	float: right;
+	margin-right: 10px;
+}
+
+.addItem{
+	position: relative;
+	padding-bottom: 0px;
+	height: 30px;
+}
+
+.addText{
+	width: 80%;
+	height: 30px;
+}
+
+.addItem button {
+	height: 35px;
+	width: 50px;
+}
+
+.tL{
+	list-style-type: square;
+	font-family: "Tangerine", serif;
+	font-size: 30px
+}
+
+.para{
+	font-family: "monospace", serif;
+}

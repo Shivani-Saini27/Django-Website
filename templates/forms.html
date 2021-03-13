@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Form </title>
+	<link rel= "stylesheet" href="index.css">
+
+</head>
+<body>
+	<h1> Registration Form </h1>
+
+	<div id="reg-form">
+		<form>
+            <label for= "first-name"> First Name: </label>
+			<input type="text" name="first-name" placeholder="Shivani" required>
+			<label for= "last-name"> Last Name:</label>
+			<input type="text" name="last-name" placeholder="saini" required="hello">
+
+		<div>
+			<label><h4> Select your gender:
+
+			</h4></label>
+			<label for="gender-male">Male</label>
+            <input type="radio" name="gender-choice" value="choice-1">
+
+            <label for="gender-female">female</label>
+            <input type="radio" name="gender-choice" value="choice-2">
+
+            <label for="others">others</label>
+            <input type="radio" name="gender-choice" value="choice-3">
+		</div>
+
+		<div>
+			Put your email:
+			<input type="email" name="email-name" placeholder="xyz@gmail.com"> 
+
+			Passwords: 
+			<input type="password" name="password">
+		</div>
+
+		<div>
+			<label for="Month"> Enter your Date of birth </label>
+			<select name="Month" > 
+				<option value="0" selected disabled >Months</option>
+				<option value="Jan"> January </option>
+				<option value="Feb"> February </option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+				<option value="June">June</option>
+				<option value="July">July</option>
+				<option value="Aug">August</option>
+				<option value="Sep">September</option>
+				<option value="Oct">October</option>
+				<option value="Nov">November</option>
+				<option value="Dec">December</option>
+
+			</select>
+		</div>
+        
+        <input type="checkbox" name=" agree">
+        <label for="agree"> I hereby declare that all information is are correct. </label>
+
+        <button type= "submit">Submit</button>
+			
+		</form>
+	</div>
+	<div>
+		<table>
+			<thead>
+				<th> Name </th>
+				<th> Place</th>
+				<th> Thing </th>
+				<th> color</th>
+			</thead>
+		<tr>
+		    <td> bruno</td>
+		    <td> home </td>
+		    <td> table </td>
+		    <td>  brown </td>
+		</tr
+		</table>
+	</div>
+</body>
+</html>
